@@ -80,7 +80,7 @@ public class HelloTest {
 		
 		// Check for desired result
 		String s = baos.toString();
-		if (! "Hello, John.\n".equals(s))
+		if (! "Hello, Jack.\n".equals(s))
 			fail("Unexpected output:\n"+s+"\n");
 
 	}
